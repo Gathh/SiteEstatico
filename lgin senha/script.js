@@ -1,8 +1,12 @@
-const campoLogin = document.getElementById("login")
-const campoSenha = document.getElementById("password")
-const campoNovoLogin = document.getElementById("novoLogin")
-const campoNovaSenha = document.getElementById("novaSenha")
-const campoRepSenha = document.getElementById("repSenha")
+let usuario = JSON.parse(localStorage.getItem("logado"));
+document.getElementById("titulo").innerHTML = "Bem vindo, "+usuario.login+"!";
+
+let campoLogin = document.getElementById("login")
+let campoSenha = document.getElementById("password")
+let campoNovoLogin = document.getElementById("novoLogin")
+let campoNovaSenha = document.getElementById("novaSenha")
+let campoRepSenha = document.getElementById("repSenha")
+let nome = document.getElementById("nome")
 
 
 function cadastra() {

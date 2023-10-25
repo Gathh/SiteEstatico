@@ -2,10 +2,10 @@ body{
     background-image: url(cafe.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     font-size: xx-large;
     text-align: center;
     color: #000000;
